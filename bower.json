@@ -1,11 +1,11 @@
 {
-  "name": "angular-view-html",
+  "name": "angular-inspect-html",
   "main": [
-    "angular-view-html.js",
-    "scss/angular-view-html.scss"
+    "angular-inspect-html.js",
+    "scss/angular-inspect-html.scss"
   ],
   "authors": [
-    "Torben Sko <torben.sko@gmail.com>"
+    "Torben Sko <torben.sko@lifeletters.com.au>"
   ],
   "description": "View the HTML of a given page element",
   "moduleType": [],
@@ -27,6 +27,7 @@
   "dependencies": {
     "angular": "~1.4.8",
     "angular-bootstrap": "~0.14.3",
-    "js-beautify": "~1.5.10"
+    "js-beautify": "~1.5.10",
+    "ng-lodash": "~0.3.0"
   }
 }

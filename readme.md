@@ -1,19 +1,16 @@
-# View HTML Angular directive
+# Inspect an element's HTML
 
-View the HTML for a given page element. Helps support code reuse and consistent
-formatting. Ideal for theming and sample pages. 
+Make it possible to view the HTML for a given page element by simply adding 
+the `inspect-html` attribute: 
 
-Inspired by the [Bootswatch](http://bootswatch.com/) theming website.
-
-
-
-# Usage
-
-Add `view-html` to the element you want to reveal the HTML of:
-
-    <div view-html>
+    <div inspect-html>
       <div>reusable html component</div>
     </div>
+
+Helps support code reuse and consistent formatting, making it ideal for theming 
+and sample pages. 
+
+Inspired by the [Bootswatch](http://bootswatch.com/) theming website.
 
 
 
@@ -21,7 +18,7 @@ Add `view-html` to the element you want to reveal the HTML of:
 
 Installing via bower:
 
-    bower install torbensko/angular-view-html
+    bower install torbensko/angular-inspect-html
 
 
 ## Development
@@ -37,4 +34,4 @@ Build the CSS
 
 Run server
 
-    node server.js
+    node demo.js

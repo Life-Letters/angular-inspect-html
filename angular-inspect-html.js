@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('sko.viewHtml', ['ngLodash'])
-  .directive('viewHtml', function ($uibModal, lodash) {
+angular.module('life.inspectHtml', ['ngLodash', 'ui.bootstrap'])
+  .directive('inspectHtml', function ($uibModal, lodash) {
 
     return {
       restrict: 'A',
@@ -22,7 +22,7 @@ angular.module('sko.viewHtml', ['ngLodash'])
           });
 
           // Remove this directive from the HTML code
-          formatted = formatted.replace(' view-html=""', '');
+          formatted = formatted.replace(' inspect-html=""', '');
 
       		$uibModal.open({
       			size: 'lg',

@@ -1,13 +1,13 @@
 {
-  "name": "angular-view-html",
+  "name": "angular-inspect-html",
   "description": "View the HTML of a given page element",
-  "main": "angular-view-html.js",
+  "main": "angular-inspect-html.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/torbensko/angular-view-html.git"
+    "url": "git+https://github.com/Life-Letters/angular-inspect-html.git"
   },
   "keywords": [
     "view",
@@ -17,9 +17,9 @@
   "author": "Torben Sko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/torbensko/angular-view-html/issues"
+    "url": "https://github.com/Life-Letters/angular-inspect-html/issues"
   },
-  "homepage": "https://github.com/torbensko/angular-view-html#readme",
+  "homepage": "https://github.com/Life-Letters/angular-inspect-html#readme",
   "dependencies": {
     "express": "^4.13.3",
     "grunt": "^0.4.5",
