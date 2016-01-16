@@ -8,7 +8,7 @@ app.use(morgan('dev'));
 app.use(express.static(__dirname));
 
 app.get('/', function(req, res) {
-  res.sendFile(__dirname+'/demo.html');
+  res.sendFile(__dirname+'/index.html');
 });
 app.listen(port);
 
